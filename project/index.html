@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron-Core Gym | Premium Fitness India</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="top-header">
+        <div class="top-container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +91 8976834832</span>
+                <span class="divider">|</span>
+                <span><i class="fas fa-envelope"></i> customer.care@ironcore.in</span>
+            </div>
+            <div class="welcome-msg">Welcome to Iron-Core Gym India.</div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">IRON-<span>CORE</span></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Get Started</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="btn-trial">Free Trial</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>SCULPT YOUR BODY</h1>
+            <p>High-intensity training and expert coaching to help you reach your peak performance.</p>
+            <a href="#programs" class="btn-main">Explore Programs</a>
+        </div>
+    </section>
+
+    <section id="programs" class="programs-wrapper">
+        <div class="container">
+            <h2 class="section-title">Training Programs</h2>
+            <p class="section-subtitle">Handpicked plans for your fitness journey</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=500&q=80" alt="Body Building">
+                    <div class="card-body">
+                        <h3>Body Building</h3>
+                        <p>Focused on muscle growth and hypertrophy with professional techniques.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=500&q=60" alt="Cardio Burn">
+                    <div class="card-body">
+                        <h3>Cardio Burn</h3>
+                        <p>Increase your stamina and heart health with intensive cardio sessions.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=500&q=60" alt="Yoga & Core">
+                    <div class="card-body">
+                        <h3>Yoga & Core</h3>
+                        <p>Improve flexibility and core stability through guided movements.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=500&q=60" alt="HIIT Training">
+                    <div class="card-body">
+                        <h3>HIIT Training</h3>
+                        <p>Blast fat and improve athletic performance with high-intensity intervals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Gym Services</h2>
+        <div class="service-list">
+            <div class="service-item">🏋️ Personal Training</div>
+            <div class="service-item">🥗 Nutrition Guidance</div>
+            <div class="service-item">🔓 Locker Facilities</div>
+            <div class="service-item">⏰ 24/7 Access</div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Tell us about your fitness goals..."></textarea>
+            <button class="btn-main">Send Message</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Iron-Core Gym | Developed By Ronit</p>
+    </footer>
+
+    <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "e8fb9f78-0270-4e75-9168-5e494644cdd0", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "3480ca3c-5ebc-442a-ac3e-d67c1c538224", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body>
+</html>
