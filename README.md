@@ -1,5 +1,4 @@
-﻿# iron-core-gym-chatbot
- Iron-Core Bot — Smart Fitness Assistant
-
+﻿#  Iron-Core Bot — Smart Fitness Assistant
 AI-powered fitness assistant built using IBM watsonx Assistant for personalized workout and diet guidance.
+
 
