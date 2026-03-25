@@ -30,7 +30,7 @@ It replaces traditional static workout plans with an **interactive chatbot** tha
 
 🔗 **Quick Links:**
 
-- 🚀 [Live Website](https://yourwebsite.com)
+- 🚀 [Live Website](http://127.0.0.1:5500/project/index.html)
 - 💻 [GitHub Repository](https://github.com/Ronitp04/iron-core-gym-chatbot)
 
 ---
@@ -110,7 +110,7 @@ Reps: 10–12
 # 🌐 Live Demo
 
 🚀 **Live Website:**  
-👉 https://yourwebsite.com  
+👉 http://127.0.0.1:5500/project/index.html  
 
 💻 **GitHub Repository:**  
 👉 https://github.com/Ronitp04/iron-core-gym-chatbot
